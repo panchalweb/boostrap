@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="landingpage.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+       <div class="header mb-5px" id="home">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-4 border-bottom fixed-top">
+        <div class="container-fluid ">
+          <a class="navbar-brand fs-1 " href="#">IT <span class="text-primary"> SECTOR </span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent ">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-6 text-center">
+              <li class="nav-item">
+                <a class="nav-link active text-primary change" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-dark change" aria-current="page" href="#about" >About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark change" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#services">Web-Development</a></li>
+                  <li><a class="dropdown-item" href="#services">App-Development</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#services">Graphics-Design</a></li>
+                  <li><a class="dropdown-item" href="#services">UI/UX Design</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-dark change" aria-current="page" href="#cources">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-dark change" aria-current="page" href="#trainers">Trainers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-dark change" aria-current="page" href="#">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-dark change" aria-current="page" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-dark change" aria-current="page" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- slider -->
+      
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" >
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img height="750px" width="100%" src="../PROJECT/1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5>Information technology</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img height="750px" width="100%" src="../PROJECT/2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5>Information technology</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img height="750px" width="100%" src="../PROJECT/3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5>Information technology</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  
+
+          <!--                                   about                                       -->
+
+
+
+    <div class="about my-5" id="about">
+        <div class="container text-center ">
+            <h1 data-aos="fade-up" data-aos-offset="200" >About <span class="text-primary"> It Sector</span> </h1>
+            <hr class="w-25 mx-auto ">
+        </div>
+        
+        <div class="row">
+            <div class="col-12 col-lg-6 col-md-6 col-sm-12" data-aos="fade-right" data-aos-offset="250">
+                <h2  >Information technology in India</h2>
+                <p class="p-2">
+                    The information technology (I.T.) industry in India comprises information technology services and business process outsourcing. The share of the IT-BPM sector in the GDP of India is 7.4% in FY 2022. The IT and BPM industries' revenue is estimated at US$ 245 billion in FY 2023. The domestic revenue of the IT industry is estimated at $51 billion, and export revenue is estimated at $194 billion in FY 2023. The IT–BPM sector overall employs 5.4 million people as of March 2023. In December 2022, Union Minister of State for Electronics and IT Rajeev Chandrasekhar, in a written reply to a question in Rajya Sabha informed that IT units registered with state-run Software Technology Parks of India (STPI) and Special Economic Zones have exported software worth Rs 11.59 lakh crore in 2021–22.
+                </p>
+                <button type="button" class="btn btn-light">More about</button>
+
+                <h3 class="mt-3">Major information technology hubs</h3>
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item ">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            Bangalore
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            Bangalore is a global technology hub and is India's biggest tech hub.[71] As of fiscal 2016–17, Bangalore accounted for 38% of total IT exports from India worth $45 billion, employing 10 lakh people directly and 30 lakh indirectly.[72] The city is known as the "Silicon Valley of India". 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            Hyderabad
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            Hyderabad – known for the HITEC City or Cyberabad – is India's second largest information technology exporter and a major global IT hub, and the largest bioinformatics hub in India.[76][77] Hyderabad has emerged as the second largest city in the country for software exports pipping competitors Chennai and Pune.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            Chennai
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            As of 2018, Chennai is India's third-largest exporter of information technology (IT) after Bangalore and Hyderabad and business process outsourcing (BPO) services.[81][82] TIDEL Park in Chennai was billed as Asia's largest IT park when it was built. 
+                        </div>
+                      </div>
+                    </div>
+                  </div>    
+
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 col-sm-12 m-auto text" data-aos="fade-left" data-aos-offset="250">
+                <img width="100%" src="../PROJECT/4.jpg" alt="" class="" >
+            </div>
+
+            
+        </div>
+        
+    </div>
+
+    <!--                                                  services                                   -->
+
+    <div class="services py-5 bg-light" id="services">
+        <div class="container">
+            <div class="text-center  ">
+            <h1 class="text-center"  data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">Our <span class="text-primary">Services</span> </h1>
+            <hr class="w-25 mx-auto ">
+            </div>
+        </div>
+        <div class="row" data-aos="flip-up" data-aos-offset="250">
+        <div class="col-12 col-lg-3 col-md-3 col-sm-12">
+            <div class="card">
+                <div class="card-body bg-primary text-white">
+                    <i class="fa-brands fa-wordpress fa-2xl mb-3 "></i>
+                  <h5 class="card-title">Web Development</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-3 col-sm-12">
+
+            <div class="card ">
+                <div class="card-body">
+                    <i class="fa-brands fa-atlassian fa-2xl mb-3"></i>  
+                  <h5 class="card-title">App Development</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-3 col-sm-12">
+            <div class="card">
+                <div class="card-body  bg-primary text-white">
+                    <i class="fa-brands fa-guilded fa-2xl mb-3"></i>
+                  <h5 class="card-title">Graphics Design</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-12 col-lg-3 col-md-3 col-sm-12">
+            <div class="card">
+                <div class="card-body">
+                    
+                    <i class="fa-solid fa-underline fa-2xl mb-3"></i>
+                  <h5 class="card-title">UI/UX Design</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        </div>
+
+        <div class="row mt-5" data-aos="flip-down" data-aos-offset="250">
+            <div class="col-12 col-lg-3 col-md-3 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fa-brands fa-wordpress fa-2xl mb-3 "></i>
+                      <h5 class="card-title">Web Development</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-3 col-sm-12">
+    
+                <div class="card bg-primary text-white" >
+                    <div class="card-body" >
+                        <i class="fa-brands fa-atlassian fa-2xl mb-3"></i>  
+                      <h5 class="card-title">App Development</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-3 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fa-brands fa-guilded fa-2xl mb-3"></i>
+                      <h5 class="card-title">Graphics Design</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-3 col-sm-12">
+                <div class="card bg-primary text-white">
+                    <div class="card-body">
+                        
+                        <i class="fa-solid fa-underline fa-2xl mb-3"></i>
+                      <h5 class="card-title">UI/UX Design</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            </div>
+    </div>
+
+    <!--                                     cources/wrap                                           -->
+
+    <div class="main" id="cources">
+        <div class="container text-center">
+            <div class="text-center  ">
+                <h1 class="text-center">Cources<span class="text-primary"></span> </h1>
+                <hr class="w-25 mx-auto ">
+                </div>
+
+            <div class="row text-center ">
+            
+                <div class="col-12 col-md-3 col-lg-3 mx-3 col-sm-12 border border-dark p-4 a cal as fs-5 mb-3" >Web-Development</div>
+                <div class="col-12 col-md-3 col-lg-3 mx-3 col-sm-12 border border-dark p-4 a cal text-dark fs-5 mb-3" >Front-end Development</div>
+                <div class="col-12 col-md-3 col-lg-3 mx-3 col-sm-12 border border-dark p-4 a cal as fs-5 mb-3" >Back-end Development</div>
+                <div class="col-12 col-md-3 col-lg-3 mx-3 col-sm-12 border border-dark p-4 a cal text-dark fs-5 mb-3" >Full-stack Development</div>
+             
+                <div class="col-12 col-md-3 col-lg-3 mx-3 col-sm-12 border border-dark p-4 a cal text-dark fs-5 mb-3" >App-Development</div>
+                <div class="col-12 col-md-3 col-lg-3 mx-3 col-sm-12 border border-dark p-4 a cal as fs-5 mb-3" >Ios-Development</div>
+                <div class="col-12 col-md-3 col-lg-3 mx-3 col-sm-12 border border-dark p-4 a cal text-dark fs-5 mb-3" >Android-Development</div>
+                <div class="col-12 col-md-3 col-lg-3 mx-3 col-sm-12 border border-dark p-4 a cal as fs-5 mb-3" >Flutter-Development</div>
+               
+               
+                <div class="col-12 col-md-3 col-lg-3 mx-3 col-sm-12 border border-dark p-4 a cal as fs-5 mb-3" >UI-UX Design</div>
+                <div class="col-12 col-md-3 col-lg-3 mx-3 col-sm-12 border border-dark p-4 a cal text-dark fs-5 mb-3" >Graphics-Design</div>
+                <div class="col-12 col-md-3 col-lg-3 mx-3 col-sm-12 border border-dark p-4 a cal as fs-5 mb-3" >Web-Design</div>
+                <div class="col-12 col-md-3 col-lg-3 mx-3 col-sm-12 border border-dark p-4 a cal text-dark fs-5 mb-3" >Design</div>
+      
+            </div>
+        </div>
+    </div>
+
+    <!--                                               team                                     -->
+
+    <div class="team my-5" id="trainers">
+      <div class="container">
+        <div class="row ">
+          <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+            <div class="card " data-aos="zoom-in" data-aos-offset="250">
+              <div class="card-body text-center text">
+                <img width="70%" src="../PROJECT/d-1.jpg" class="image ">
+                <h5 class="card-title mt-3">Walter White</h5>
+                <p class="card-text">Fullstack-Developer</p>
+                <a href="#" class=" join">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+            <div class="card "  data-aos="zoom-in-up" data-aos-offset="250">
+              <div class="card-body text-center text">
+                <img width="100%" src="../PROJECT/d-2.jpg" class="image">
+                <h5 class="card-title mt-3">Sarah Jhinson</h5>
+                <p class="card-text">Android-Developer</p>
+                <a href="#" class=" join">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+            <div class="card" data-aos="zoom-in-down" data-aos-offset="250">
+              <div class="card-body text-center text">
+                <img width="70%" src="../PROJECT/45.avif" class="image">
+                <h5 class="card-title mt-3">William Anderson</h5>
+                <p class="card-text ">Graphics-Designer</p>
+                <a href="#" class=" join">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <!--                                        form                                            -->
+
+    <div class="section" id="contact">
+      <div class="container">
+        <div class="text-center mt-5 " >
+          <h1 class="text-center"  data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">Feel free <span class="text-primary">to connect</span> </h1>
+          <hr class="w-50 mx-auto ">
+        </div>
+        <div class="row mt-5">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6"   data-aos="zoom-in-right" data-aos-offset="250">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+              
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">State</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Check me out
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-end text" data-aos="zoom-in-left" data-aos-offset="250" >
+            <img width="100%" height="" src="../PROJECT/1-5.jpg" class="p-3 image">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--                                          footer                                 -->
+    <section class="footer" id="contact">
+    <div class="container-fluid fs-2 mt-5 text-center bg-primary text-white p-2"  >
+      <marquee behavior="alternate" direction="right" scrollamount="25" >Developed By Ashish Panchal</marquee>
+      
+    </div>
+  </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing:
+    border-box;
+}
+.carousel-item img{
+    height: 100vh;
+    width: 100%;
+    
+}
+.as
+{
+    color: rgb(214, 128, 22);
+    font-weight: bolder;
+    font-family: roboto;
+    
+}
+.a
+{
+    font-style: italic;
+   
+    
+}
+.card-body img
+{
+    /* width: 100%; */
+    height: 300px;
+}
+.cal
+{
+    width: calc(25% - 34px) !important;
+}
+.join:hover{
+    color: cadetblue;
+    /* background-color: aqua; */
+    font-weight: bold;
+}
+.text:hover
+{
+    box-shadow: 10px 10px 25px rgb(67, 183, 222);
+    transition: all ease-in-out 0.5s ;
+}
+
+.change:hover
+{
+    color: rgb(204, 162, 9) !important;
+    /* transition: all ease-in-out 0.5s ; */
+    font-weight: bold;
+    font-style: italic;
+}
